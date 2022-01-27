@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
         }
     };
 
-    //ISOTOPE
+
     let btns = $("#servicos .button-group button");
 
     btns.click(function (e) {
@@ -27,7 +27,7 @@ jQuery(document).ready(function ($) {
         });
     });
 
-    //MAGNIFY
+
     $(".grid .popup-link").magnificPopup({
         type: "image",
         gallery: {
@@ -38,7 +38,6 @@ jQuery(document).ready(function ($) {
         },
     });
 
-    //OWL
     $(".owl-carousel").owlCarousel({
         loop: false,
         margin: 30,
